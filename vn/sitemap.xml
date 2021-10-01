@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/vn/about/</loc>
+    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/about/"
+                />
+  </url><url>
+    <loc>/vn/</loc>
+    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/"
+                />
+  </url><url>
+    <loc>/vn/about/about/</loc>
+    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/about/about/"
+                />
+  </url><url>
     <loc>/vn/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -17,23 +71,6 @@
                 rel="alternate"
                 hreflang="vn"
                 href="/vn/categories/"
-                />
-  </url><url>
-    <loc>/vn/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="/vn/"
                 />
   </url><url>
     <loc>/vn/tags/</loc>

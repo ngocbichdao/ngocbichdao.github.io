@@ -30,6 +30,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="vn"
+                href="/vn/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="/fr/about/about/"
                 />
@@ -40,6 +45,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/about/"
                 />
     <xhtml:link
                 rel="alternate"

@@ -1,7 +1,7 @@
 [
 {
-	"uri": "/vn/categories/",
-	"title": "Categories",
+	"uri": "/vn/about/",
+	"title": "Abouts",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -9,6 +9,20 @@
 {
 	"uri": "/vn/",
 	"title": "Ngoc Bich DAO",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/vn/about/about/",
+	"title": "Tu su",
+	"tags": [],
+	"description": "",
+	"content": "Noi ve toi\n"
+},
+{
+	"uri": "/vn/categories/",
+	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
