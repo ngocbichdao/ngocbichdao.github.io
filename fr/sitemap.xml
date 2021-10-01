@@ -20,6 +20,18 @@
                 href="/fr/"
                 />
   </url><url>
+    <loc>/fr/posts/test/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/test/"
+                />
+  </url><url>
     <loc>/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -35,6 +47,18 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/categories/"
+                />
+  </url><url>
+    <loc>/fr/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/"
                 />
   </url><url>
     <loc>/fr/tags/</loc>
