@@ -36,7 +36,7 @@ landingPageName = "<i class='fas fa-home'></i> Trang chu"
   # See the config.toml file from this documentation site to have an example.
   editURL = ""
   # Author of the site, will be used in meta information
-  author = "Ngoc Bich DAO"
+  author = ""
   # Description of the site, will be used in meta information
   description = ""
   # Shows a checkmark for visited pages on the menu
@@ -71,4 +71,3 @@ landingPageName = "<i class='fas fa-home'></i> Trang chu"
   # custom_css = ["css/foo.css", "css/bar.css"]
   # Change the title separator. Default to "::".
   titleSeparator = "-"
-  
