@@ -30,6 +30,9 @@ landingPageName = "<i class='fas fa-home'></i> Accueil"
 # landingPageURL = "/vn"
 # landingPageName = "<i class='fas fa-home'></i> Trang chu"
 
+landingPageURL = "/"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.
@@ -60,14 +63,16 @@ landingPageName = "<i class='fas fa-home'></i> Accueil"
   # If set to true, prevents Hugo from including the mermaid module if not needed (will reduce load times and traffic)
   disableMermaid = false
   # Specifies the remote location of the mermaid js
-  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  # customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   # Hide Next and Previous page buttons normally displayed full height beside content
   disableNextPrev = true
   # Order sections in menu by "weight" or "title". Default to "weight"
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = "green"
+  themeVariant = ""
   # Provide a list of custom css files to load relative from the `static/` folder in the site root.
   # custom_css = ["css/foo.css", "css/bar.css"]
   # Change the title separator. Default to "::".
   titleSeparator = "-"
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
