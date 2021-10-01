@@ -23,12 +23,12 @@ languageName = "Français"
 landingPageURL = "/fr"
 landingPageName = "<i class='fas fa-home'></i> Accueil"
 
-# [Languages.vn]
-# title = "Ngoc Bich DAO"
-# weight = 2
-# languageName = "VietNam"
-# landingPageURL = "/vn"
-# landingPageName = "<i class='fas fa-home'></i> Trang chu"
+[Languages.vn]
+title = "Ngoc Bich DAO"
+weight = 3
+languageName = "VietNam"
+landingPageURL = "/vn"
+landingPageName = "<i class='fas fa-home'></i> Trang chu"
 
 landingPageURL = "/"
 landingPageName = "<i class='fas fa-home'></i> Home"
