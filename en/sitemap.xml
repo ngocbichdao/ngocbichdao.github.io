@@ -12,11 +12,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="vn"
-                href="/vn/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/en/"
                 />
@@ -79,11 +74,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="vn"
-                href="/vn/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/en/categories/"
                 />
@@ -93,11 +83,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="/vn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
