@@ -1,7 +1,7 @@
-baseURL = 'https://ngocbichdao.github.io/'
-languageCode = 'en-us'
-title = 'Ngoc Bich DAO'
-theme = 'learn'
+# baseURL = 'https://ngocbichdao.github.io/'
+# languageCode = 'en-us'
+# title = 'Ngoc Bich DAO'
+# theme = 'learn'
 #=========================================
 # English is the default language
 defaultContentLanguage = "en"
@@ -22,6 +22,13 @@ weight = 2
 languageName = "Français"
 landingPageURL = "/fr"
 landingPageName = "<i class='fas fa-home'></i> Accueil"
+
+[Languages.vn]
+title = "Ngoc Bich DAO"
+weight = 2
+languageName = "VietNam"
+landingPageURL = "/vn"
+landingPageName = "<i class='fas fa-home'></i> Trang chu"
 
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
