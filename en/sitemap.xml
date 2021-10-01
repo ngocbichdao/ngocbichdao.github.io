@@ -2,48 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ngocbichdao.github.io/en/</loc>
+    <loc>/en/</loc>
     <lastmod>2021-10-01T14:22:24+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/"
+                href="/en/"
                 />
   </url><url>
-    <loc>https://ngocbichdao.github.io/en/posts/</loc>
+    <loc>/en/posts/</loc>
     <lastmod>2021-10-01T14:22:24+02:00</lastmod>
   </url><url>
-    <loc>https://ngocbichdao.github.io/en/posts/test/</loc>
+    <loc>/en/posts/test/</loc>
     <lastmod>2021-10-01T14:22:24+02:00</lastmod>
   </url><url>
-    <loc>https://ngocbichdao.github.io/en/categories/</loc>
+    <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/categories/"
+                href="/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/categories/"
+                href="/en/categories/"
                 />
   </url><url>
-    <loc>https://ngocbichdao.github.io/en/tags/</loc>
+    <loc>/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/tags/"
+                href="/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/tags/"
+                href="/en/tags/"
                 />
   </url>
 </urlset>

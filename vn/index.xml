@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ngoc Bich DAO</title>
-    <link>/fr/</link>
+    <link>/vn/</link>
     <description>Recent content on Ngoc Bich DAO</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/vn/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
