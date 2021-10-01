@@ -1,6 +1,6 @@
 baseURL = 'https://ngocbichdao.github.io/'
 languageCode = 'en-us'
-# title = 'Ngoc Bich DAO'
+title = 'Ngoc Bich DAO'
 # theme = 'learn'
 #=========================================
 # English is the default language
