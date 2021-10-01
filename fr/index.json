@@ -22,14 +22,7 @@
 },
 {
 	"uri": "/fr/posts/test/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "/fr/categories/",
-	"title": "Categories",
+	"title": "Con ga con",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -37,6 +30,13 @@
 {
 	"uri": "/fr/posts/",
 	"title": "Posts",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/fr/categories/",
+	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
