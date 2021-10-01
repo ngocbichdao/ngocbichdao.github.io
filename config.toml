@@ -1,4 +1,25 @@
-baseURL = 'https://ngocbichdao.github.io/'
-languageCode = 'en-us'
-title = 'Ngoc Bich DAO'
-theme = 'learn'
+# baseURL = 'https://ngocbichdao.github.io/'
+# languageCode = 'en-us'
+# title = 'Ngoc Bich DAO'
+# theme = 'learn'
+#=========================================
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+[Languages.en]
+title = "Ngoc Bich DAO"
+weight = 1
+languageName = "English"
+
+[Languages.fr]
+title = "Ngoc Bich DAO"
+weight = 2
+languageName = "Français"
+
+[Languages.vn]
+title = "DAO Ngoc Bich"
+weight = 3
+languageName = "VietNam"
