@@ -8,21 +8,21 @@
 },
 {
 	"uri": "/fr/about/about/",
-	"title": "",
+	"title": "A propose",
 	"tags": [],
 	"description": "",
-	"content": "A propose de\n"
+	"content": "A propose de moi\n"
 },
 {
-	"uri": "/fr/posts/test/",
-	"title": "",
+	"uri": "/fr/about/",
+	"title": "Abouts",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/fr/about/",
-	"title": "Abouts",
+	"uri": "/fr/posts/test/",
+	"title": "",
 	"tags": [],
 	"description": "",
 	"content": ""

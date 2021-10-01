@@ -4,14 +4,15 @@
     <title>Abouts on Ngoc Bich DAO</title>
     <link>/fr/about/</link>
     <description>Recent content in Abouts on Ngoc Bich DAO</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/fr/about/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/fr/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>A propose</title>
       <link>/fr/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
       <guid>/fr/about/about/</guid>
-      <description>A propose de</description>
+      <description>A propose de moi</description>
     </item>
     
   </channel>

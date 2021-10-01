@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/fr/</loc>
+    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -16,6 +17,7 @@
                 />
   </url><url>
     <loc>/fr/about/about/</loc>
+    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -25,6 +27,19 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/about/about/"
+                />
+  </url><url>
+    <loc>/fr/about/</loc>
+    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/"
                 />
   </url><url>
     <loc>/fr/posts/test/</loc>
@@ -37,18 +52,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/posts/test/"
-                />
-  </url><url>
-    <loc>/fr/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/about/"
                 />
   </url><url>
     <loc>/fr/categories/</loc>
