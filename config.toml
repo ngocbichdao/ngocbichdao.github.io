@@ -72,5 +72,3 @@ landingPageName = "<i class='fas fa-home'></i> Trang chu"
   # Change the title separator. Default to "::".
   titleSeparator = "-"
   
-[outputs]
-  home = [ "HTML", "RSS", "JSON"]
