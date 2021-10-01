@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ngoc Bich DAO</title>
-    <link>/en/posts/</link>
+    <link>https://ngocbichdao.github.io/en/posts/</link>
     <description>Recent content in Posts on Ngoc Bich DAO</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="https://ngocbichdao.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>/en/posts/test/</link>
+      <link>https://ngocbichdao.github.io/en/posts/test/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
-      <guid>/en/posts/test/</guid>
+      <guid>https://ngocbichdao.github.io/en/posts/test/</guid>
       <description>Mot con vit xoe ra hai cai canh</description>
     </item>
     
