@@ -7,18 +7,18 @@
 	"content": "about posts quotes\n"
 },
 {
-	"uri": "/en/about/about/",
-	"title": "About",
-	"tags": [],
-	"description": "",
-	"content": "About me\n"
-},
-{
 	"uri": "/en/about/",
 	"title": "Abouts",
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/en/about/about/",
+	"title": "Abouts",
+	"tags": [],
+	"description": "",
+	"content": "About me\n"
 },
 {
 	"uri": "/en/posts/",

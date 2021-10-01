@@ -21,24 +21,6 @@
                 href="/en/"
                 />
   </url><url>
-    <loc>/en/about/about/</loc>
-    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/about/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="/vn/about/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/about/"
-                />
-  </url><url>
     <loc>/en/about/</loc>
     <lastmod>2021-10-01T14:22:24+02:00</lastmod>
     <xhtml:link
@@ -55,6 +37,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/about/"
+                />
+  </url><url>
+    <loc>/en/about/about/</loc>
+    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/about/"
                 />
   </url><url>
     <loc>/en/posts/</loc>
