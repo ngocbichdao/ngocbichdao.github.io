@@ -76,3 +76,26 @@ landingPageName = "<i class='fas fa-home'></i> Home"
   titleSeparator = "-"
 [outputs]
   home = [ "HTML", "RSS", "JSON"]
+#========================================
+# Add links in left panel
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/ngocbichdao"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-camera'></i> Showcases"
+url = "/showcase"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
