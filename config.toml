@@ -9,6 +9,9 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= true
 
 [Languages]
+landingPageURL = "/"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
 [Languages.en]
 title = "Ngoc Bich DAO"
 weight = 1
