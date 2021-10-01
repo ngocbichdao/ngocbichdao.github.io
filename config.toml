@@ -9,9 +9,6 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= true
 
 [Languages]
-landingPageURL = "/"
-landingPageName = "<i class='fas fa-home'></i> Home"
-
 [Languages.en]
 title = "Ngoc Bich DAO"
 weight = 1
@@ -39,7 +36,7 @@ landingPageName = "<i class='fas fa-home'></i> Trang chu"
   # See the config.toml file from this documentation site to have an example.
   editURL = ""
   # Author of the site, will be used in meta information
-  author = ""
+  author = "Ngoc Bich DAO"
   # Description of the site, will be used in meta information
   description = ""
   # Shows a checkmark for visited pages on the menu
