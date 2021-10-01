@@ -13,13 +13,12 @@ defaultContentLanguageInSubdir= true
 title = "Ngoc Bich DAO"
 weight = 1
 languageName = "English"
+landingPageURL = "/en"
+landingPageName = "<i class='fas fa-home'></i> Home"
 
 [Languages.fr]
 title = "Ngoc Bich DAO"
 weight = 2
 languageName = "Français"
-
-[Languages.vn]
-title = "DAO Ngoc Bich"
-weight = 3
-languageName = "VietNam"
+landingPageURL = "/fr"
+landingPageName = "<i class='fas fa-home'></i> Accueil"
