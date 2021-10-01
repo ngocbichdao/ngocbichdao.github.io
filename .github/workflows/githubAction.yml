@@ -33,12 +33,14 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.88.1"
+          # extended: true
 
       - name: Build        
         run: hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/source'
         with:
           personal_token: ${{ secrets.TOKENHUGO }}
           # external_repository: ngocbichdao/ngocbichdao.github.io
