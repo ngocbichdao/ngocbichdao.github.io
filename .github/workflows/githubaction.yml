@@ -2,9 +2,9 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push or pull request events but only for the source branch
   push:
-    branches: [ main ]
+    branches: [ source ]
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -43,5 +43,5 @@ jobs:
           #   keep_files: true
           user_name: ngocbichdao
           user_email: dao.nbich@gmail.com
-          publish_branch: gh-pages
+          publish_branch: main
         #   cname: example.com
