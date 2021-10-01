@@ -2,89 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ngocbichdao.github.io/fr/</loc>
+    <loc>/fr/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/"
+                href="/fr/"
                 />
   </url><url>
-    <loc>https://ngocbichdao.github.io/fr/about/about/</loc>
+    <loc>/fr/about/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/about/about/"
+                href="/en/about/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/about/about/"
+                href="/fr/about/about/"
                 />
   </url><url>
-    <loc>https://ngocbichdao.github.io/fr/posts/test/</loc>
+    <loc>/fr/posts/test/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/posts/test/"
+                href="/en/posts/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/posts/test/"
+                href="/fr/posts/test/"
                 />
   </url><url>
-    <loc>https://ngocbichdao.github.io/fr/about/</loc>
+    <loc>/fr/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/about/"
+                href="/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/about/"
+                href="/fr/about/"
                 />
   </url><url>
-    <loc>https://ngocbichdao.github.io/fr/categories/</loc>
+    <loc>/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/categories/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/categories/"
+                href="/fr/categories/"
                 />
   </url><url>
-    <loc>https://ngocbichdao.github.io/fr/posts/</loc>
+    <loc>/fr/posts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/posts/"
+                href="/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/posts/"
+                href="/fr/posts/"
                 />
   </url><url>
-    <loc>https://ngocbichdao.github.io/fr/tags/</loc>
+    <loc>/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ngocbichdao.github.io/en/tags/"
+                href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://ngocbichdao.github.io/fr/tags/"
+                href="/fr/tags/"
                 />
   </url>
 </urlset>
