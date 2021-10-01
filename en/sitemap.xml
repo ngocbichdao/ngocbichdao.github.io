@@ -47,6 +47,10 @@
                 href="/en/posts/test/"
                 />
   </url><url>
+    <loc>/en/about/about/</loc>
+  </url><url>
+    <loc>/en/about/</loc>
+  </url><url>
     <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
