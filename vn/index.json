@@ -14,6 +14,20 @@
 	"content": ""
 },
 {
+	"uri": "/vn/posts/",
+	"title": "Posts",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/vn/posts/test/",
+	"title": "Thu nghiem",
+	"tags": [],
+	"description": "",
+	"content": "No keu rang cap cap cap cap cap cap\n"
+},
+{
 	"uri": "/vn/about/about/",
 	"title": "Tu su",
 	"tags": [],

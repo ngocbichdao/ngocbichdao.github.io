@@ -66,6 +66,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="vn"
+                href="/vn/posts/test/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="/fr/posts/test/"
                 />
@@ -76,6 +81,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/posts/"
                 />
     <xhtml:link
                 rel="alternate"
