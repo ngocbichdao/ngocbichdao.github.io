@@ -4,7 +4,7 @@
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": "about posts quotes\n"
+	"content": "chapter: true\ncon vit con\n"
 },
 {
 	"uri": "/en/about/",
