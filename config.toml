@@ -7,39 +7,114 @@ theme = 'learn'
 defaultContentLanguage = "en"
 # Force to have /en/my-page and /fr/my-page routes, even for default language.
 defaultContentLanguageInSubdir= true
-
+#==========================================================
 [Languages]
 [Languages.en]
+contentDir = 'content/en'
 title = "Ngoc Bich DAO"
 weight = 1
 languageName = "English"
 landingPageURL = "/en"
 landingPageName = "<i class='fas fa-home'></i> Home"
+# [Languages.en.menu]
+# [[Languages.en.menu.main]]
+#       name = 'Home'
+#       url = '/'
+#       weight = 0
+# Add links in left panel
+[[Languages.en.menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/ngocbichdao"
+weight = 10
 
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-camera'></i> Showcases"
+url = "/showcase"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Hugo documentation"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
+#==========================================================
 [Languages.fr]
+contentDir = 'content/fr'
 title = "Ngoc Bich DAO"
 weight = 2
 languageName = "Français"
 landingPageURL = "/fr"
 landingPageName = "<i class='fas fa-home'></i> Accueil"
 
+# Add links in left panel
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Repo Github"
+identifier = "ds"
+url = "https://github.com/ngocbichdao"
+weight = 10
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-camera'></i> Vitrines"
+url = "/showcase"
+weight = 11
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Documentation de Hugo"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fas fa-bullhorn'></i> Crédits"
+url = "/credits"
+weight = 30
+#==========================================================
 [Languages.vn]
+contentDir = 'content/vn'
 title = "Ngoc Bich DAO"
 weight = 3
 languageName = "VietNam"
 landingPageURL = "/vn"
 landingPageName = "<i class='fas fa-home'></i> Trang chu"
+# Add links in left panel
+[[Languages.vn.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/ngocbichdao"
+weight = 10
 
-landingPageURL = "/"
-landingPageName = "<i class='fas fa-home'></i> Home"
+[[Languages.vn.menu.shortcuts]]
+name = "<i class='fas fa-camera'></i> Ví dụ"
+url = "/showcase"
+weight = 11
 
+[[Languages.vn.menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Tài liệu của Hugo"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 20
+
+[[Languages.vn.menu.shortcuts]]
+name = "<i class='fas fa-bullhorn'></i> Cảm ơn"
+url = "/credits"
+weight = 30
+#==========================================================
+# landingPageURL = "/"
+# landingPageName = "<i class='fas fa-home'></i> Home"
+#==========================================================
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
   editURL = ""
   # Author of the site, will be used in meta information
-  author = ""
+  author = "Ngoc Bich DAO"
   # Description of the site, will be used in meta information
   description = ""
   # Shows a checkmark for visited pages on the menu
@@ -69,7 +144,7 @@ landingPageName = "<i class='fas fa-home'></i> Home"
   # Order sections in menu by "weight" or "title". Default to "weight"
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = ""
+  themeVariant = "green"
   # Provide a list of custom css files to load relative from the `static/` folder in the site root.
   # custom_css = ["css/foo.css", "css/bar.css"]
   # Change the title separator. Default to "::".
@@ -77,25 +152,4 @@ landingPageName = "<i class='fas fa-home'></i> Home"
 [outputs]
   home = [ "HTML", "RSS", "JSON"]
 #========================================
-# Add links in left panel
-[[menu.shortcuts]] 
-name = "<i class='fab fa-github'></i> Github repo"
-identifier = "ds"
-url = "https://github.com/ngocbichdao"
-weight = 10
 
-[[menu.shortcuts]]
-name = "<i class='fas fa-camera'></i> Showcases"
-url = "/showcase"
-weight = 11
-
-[[menu.shortcuts]]
-name = "<i class='fas fa-bookmark'></i> Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
-
-[[menu.shortcuts]]
-name = "<i class='fas fa-bullhorn'></i> Credits"
-url = "/credits"
-weight = 30
