@@ -1,12 +1,5 @@
 [
 {
-	"uri": "/en/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": "chapter: true\ncon vit con\n"
-},
-{
 	"uri": "/en/about/",
 	"title": "Abouts",
 	"tags": [],
@@ -19,6 +12,13 @@
 	"tags": [],
 	"description": "",
 	"content": "About me\n"
+},
+{
+	"uri": "/en/",
+	"title": "Ngoc Bich DAO",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/en/posts/",

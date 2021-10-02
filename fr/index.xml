@@ -8,19 +8,19 @@
     <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A propose</title>
-      <link>/fr/about/about/</link>
+      <link>/fr/a-propos/about/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
-      <guid>/fr/about/about/</guid>
+      <guid>/fr/a-propos/about/</guid>
       <description>A propose de moi</description>
     </item>
     
     <item>
       <title>Con ga con</title>
-      <link>/fr/posts/test/</link>
+      <link>/fr/article/test/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
-      <guid>/fr/posts/test/</guid>
+      <guid>/fr/article/test/</guid>
       <description></description>
     </item>
     

@@ -1,35 +1,35 @@
 [
 {
-	"uri": "/fr/",
-	"title": "",
+	"uri": "/fr/a-propos/",
+	"title": "A propos",
 	"tags": [],
 	"description": "",
-	"content": "A propose Postes Citations "
+	"content": ""
 },
 {
-	"uri": "/fr/about/about/",
+	"uri": "/fr/a-propos/about/",
 	"title": "A propose",
 	"tags": [],
 	"description": "",
 	"content": "A propose de moi\n"
 },
 {
-	"uri": "/fr/about/",
-	"title": "Abouts",
+	"uri": "/fr/article/",
+	"title": "Articles",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/fr/posts/test/",
+	"uri": "/fr/article/test/",
 	"title": "Con ga con",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/fr/posts/",
-	"title": "Posts",
+	"uri": "/fr/",
+	"title": "Ngoc Bich DAO",
 	"tags": [],
 	"description": "",
 	"content": ""

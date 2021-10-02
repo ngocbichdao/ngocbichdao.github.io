@@ -1,7 +1,7 @@
 [
 {
-	"uri": "/vn/about/",
-	"title": "Abouts",
+	"uri": "/vn/gioi-thieu-ban-than/",
+	"title": "Gioi thieu ban thans",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -14,21 +14,21 @@
 	"content": ""
 },
 {
-	"uri": "/vn/posts/",
-	"title": "Posts",
+	"uri": "/vn/noi-dung/",
+	"title": "Noi dungs",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/vn/posts/test/",
+	"uri": "/vn/noi-dung/test/",
 	"title": "Thu nghiem",
 	"tags": [],
 	"description": "",
 	"content": "No keu rang cap cap cap cap cap cap\n"
 },
 {
-	"uri": "/vn/about/about/",
+	"uri": "/vn/gioi-thieu-ban-than/about/",
 	"title": "Tu su",
 	"tags": [],
 	"description": "",
