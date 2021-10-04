@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Mon blog</title>
+    <title>Abouts on Ngoc Bich DAO</title>
     <link>/fr/about/</link>
-    <description>Recent content in Abouts on Mon blog</description>
+    <description>Recent content in Abouts on Ngoc Bich DAO</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/fr/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Abouts</title>
+      <title>A propose</title>
       <link>/fr/about/about/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
       <guid>/fr/about/about/</guid>
-      <description>About me</description>
+      <description>A propose de moi</description>
     </item>
     
   </channel>

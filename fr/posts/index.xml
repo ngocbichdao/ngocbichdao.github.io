@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Mon blog</title>
+    <title>Articles on Mon blog</title>
     <link>/fr/posts/</link>
-    <description>Recent content in Posts on Mon blog</description>
+    <description>Recent content in Articles on Mon blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/fr/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Contenu</title>
+      <title>Comment use Hugo framework et Github actions</title>
       <link>/fr/posts/test/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
       <guid>/fr/posts/test/</guid>
-      <description>No keu rang cap cap cap cap cap cap</description>
+      <description>Mettre à jour bientot.</description>
     </item>
     
   </channel>

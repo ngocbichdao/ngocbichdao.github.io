@@ -1,38 +1,24 @@
 [
 {
+	"uri": "/vn/posts/test/",
+	"title": "Cách cài đặt Hugo và GitHub actions",
+	"tags": [],
+	"description": "",
+	"content": "Đang cập nhật.\n"
+},
+{
+	"uri": "/vn/posts/",
+	"title": "Nội dung",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/vn/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": "Ví dụ.\n"
-},
-{
-	"uri": "/vn/about/",
-	"title": "Abouts",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "/vn/about/about/",
-	"title": "Abouts",
-	"tags": [],
-	"description": "",
-	"content": "About me\n"
-},
-{
-	"uri": "/vn/posts/test/",
-	"title": "Noi dung",
-	"tags": [],
-	"description": "",
-	"content": "Gap ho nuoc no bi ba bi bom\n"
-},
-{
-	"uri": "/vn/posts/",
-	"title": "Posts",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "/vn/categories/",

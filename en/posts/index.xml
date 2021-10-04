@@ -5,14 +5,14 @@
     <link>/en/posts/</link>
     <description>Recent content in Posts on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Content</title>
+      <title>How to really using Hugo and GitHub action together</title>
       <link>/en/posts/test/</link>
-      <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
+      <pubDate>Mon, 04 Oct 2021 14:22:24 +0200</pubDate>
       
       <guid>/en/posts/test/</guid>
-      <description>Mot con vit xoe ra hai cai canh</description>
+      <description>This is my first time to create a blog. Yes, I know I know, I&amp;rsquo;m an software engineer, I had learn to create and deploy a website in my early days at my university. But back then (2007), there isn&amp;rsquo;t much framework and way to do that like now (2021). And I have forgot alot of things, in order to learn new things. So it&amp;rsquo;s like start at the beginning.</description>
     </item>
     
   </channel>

@@ -2,62 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/</loc>
-    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="/vn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-  </url><url>
-    <loc>/en/about/</loc>
-    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="/vn/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
-                />
-  </url><url>
-    <loc>/en/about/about/</loc>
-    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/about/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="/vn/about/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/about/"
-                />
-  </url><url>
     <loc>/en/posts/test/</loc>
-    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
+    <lastmod>2021-10-04T14:22:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -75,7 +21,7 @@
                 />
   </url><url>
     <loc>/en/posts/</loc>
-    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
+    <lastmod>2021-10-04T14:22:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -90,6 +36,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/posts/"
+                />
+  </url><url>
+    <loc>/en/</loc>
+    <lastmod>2021-10-04T14:22:24+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="/vn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
                 />
   </url><url>
     <loc>/en/categories/</loc>

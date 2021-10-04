@@ -1,38 +1,24 @@
 [
 {
+	"uri": "/fr/posts/",
+	"title": "Articles",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/fr/posts/test/",
+	"title": "Comment use Hugo framework et Github actions",
+	"tags": [],
+	"description": "",
+	"content": "Mettre à jour bientot.\n"
+},
+{
 	"uri": "/fr/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": "Vitrine.\n"
-},
-{
-	"uri": "/fr/about/",
-	"title": "Abouts",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "/fr/about/about/",
-	"title": "Abouts",
-	"tags": [],
-	"description": "",
-	"content": "About me\n"
-},
-{
-	"uri": "/fr/posts/test/",
-	"title": "Contenu",
-	"tags": [],
-	"description": "",
-	"content": "No keu rang cap cap cap cap cap cap\n"
-},
-{
-	"uri": "/fr/posts/",
-	"title": "Posts",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "/fr/categories/",

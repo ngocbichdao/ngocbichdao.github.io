@@ -2,58 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/fr/</loc>
+    <loc>/fr/posts/</loc>
     <lastmod>2021-10-01T14:22:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="/vn/"
+                href="/vn/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/"
-                />
-  </url><url>
-    <loc>/fr/about/</loc>
-    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="/vn/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/about/"
-                />
-  </url><url>
-    <loc>/fr/about/about/</loc>
-    <lastmod>2021-10-01T14:22:24+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="/vn/about/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/about/about/"
+                href="/fr/posts/"
                 />
   </url><url>
     <loc>/fr/posts/test/</loc>
@@ -74,22 +38,22 @@
                 href="/fr/posts/test/"
                 />
   </url><url>
-    <loc>/fr/posts/</loc>
+    <loc>/fr/</loc>
     <lastmod>2021-10-01T14:22:24+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vn"
-                href="/vn/posts/"
+                href="/vn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/posts/"
+                href="/fr/"
                 />
   </url><url>
     <loc>/fr/categories/</loc>

@@ -7,21 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/vn/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Abouts</title>
-      <link>/vn/about/about/</link>
-      <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
-      
-      <guid>/vn/about/about/</guid>
-      <description>About me</description>
-    </item>
-    
-    <item>
-      <title>Noi dung</title>
+      <title>Cách cài đặt Hugo và GitHub actions</title>
       <link>/vn/posts/test/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
       <guid>/vn/posts/test/</guid>
-      <description>Gap ho nuoc no bi ba bi bom</description>
+      <description>Đang cập nhật.</description>
     </item>
     
   </channel>

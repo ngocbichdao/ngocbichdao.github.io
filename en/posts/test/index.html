@@ -9,25 +9,25 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Content - My blog</title>
+    <title>How to really using Hugo and GitHub action together - My blog</title>
 
     
-    <link href="/css/nucleus.css?1633335210" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1633335210" rel="stylesheet">
-    <link href="/css/hybrid.css?1633335210" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1633335210" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1633335210" rel="stylesheet">
-    <link href="/css/auto-complete.css?1633335210" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1633335210" rel="stylesheet">
-    <link href="/css/theme.css?1633335210" rel="stylesheet">
-    <link href="/css/tabs.css?1633335210" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1633335210" rel="stylesheet">
+    <link href="/css/nucleus.css?1633357175" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1633357175" rel="stylesheet">
+    <link href="/css/hybrid.css?1633357175" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1633357175" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1633357175" rel="stylesheet">
+    <link href="/css/auto-complete.css?1633357175" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1633357175" rel="stylesheet">
+    <link href="/css/theme.css?1633357175" rel="stylesheet">
+    <link href="/css/tabs.css?1633357175" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1633357175" rel="stylesheet">
     
-    <link href="/css/theme-green.css?1633335210" rel="stylesheet">
+    <link href="/css/theme-green.css?1633357175" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1633335210"></script>
+    <script src="/js/jquery-3.3.1.min.js?1633357175"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -137,14 +137,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1633335210"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1633335210"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1633357175"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1633357175"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1633335210"></script>
+<script type="text/javascript" src="/js/search.js?1633357175"></script>
 
     
   </div>
@@ -171,68 +171,13 @@
  
   
     
-    <li data-nav-id="/en/about/" title="Abouts" class="dd-item
-        
-        
-        
-        ">
-      <a href="/en/about/">
-          Abouts
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/en/about/about/" title="Abouts" class="dd-item ">
-        <a href="/en/about/about/">
-        Abouts
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-      
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
     <li data-nav-id="/en/posts/" title="Posts" class="dd-item
         parent
         
         
         ">
       <a href="/en/posts/">
-          Posts
+          <b>1. </b>Posts
           
       </a>
       
@@ -253,9 +198,9 @@
  
   
     
-      <li data-nav-id="/en/posts/test/" title="Content" class="dd-item active">
+      <li data-nav-id="/en/posts/test/" title="How to really using Hugo and GitHub action together" class="dd-item active">
         <a href="/en/posts/test/">
-        Content
+        How to really using Hugo and GitHub action together
         
         </a>
     </li>
@@ -409,7 +354,7 @@
                   <span class="links">
                  
                  
-                   Content
+                   How to really using Hugo and GitHub action together
                  
                   </span>
                 </div>
@@ -432,14 +377,157 @@
           
             <h1>
               
-              Content
+              How to really using Hugo and GitHub action together
             </h1>
           
 
         
 
 
-<p>Mot con vit xoe ra hai cai canh</p>
+<dl>
+<dt>This is my first time to create a blog. Yes, I know I know, I&rsquo;m an software engineer, I had learn to create and deploy a website in my early days at my university. But back then (2007), there isn&rsquo;t much framework and way to do that like now (2021). And I have forgot alot of things, in order to learn new things. So it&rsquo;s like start at the beginning.</dt>
+<dt>I ask around and decided to use Hugo framework to build my static website and github action to deploy my website on the internet.</dt>
+<dt>I have had some trouble when I follow the guides on the internet, even the official one, they are great, with alot of detail, but sometime I feel like it is more for someone who already know how to create and deploy a website. So I decided that my first blog will be talking about how to use Hugo framework to build my website and github action to deploy my website on my <code>&lt;your github account name&gt;.github.io</code> repository.</dt>
+<dt>What is Hugo framework ?</dt>
+<dd>Hugo is a static site generator written in Go.</dd>
+</dl>
+<p>What is GitHub actions ?
+:</p>
+<dl>
+<dt>How did I do it ?</dt>
+<dd>In the next part, I will show you how did I do it, step by step with comment on things that I missed, and loss time to correct it. I also put links that I followed for guide with more informations.</dd>
+</dl>
+<ul>
+<li>
+<p>Step 1: <a href="https://themes.gohugo.io/">Choose a theme</a>
+Answer some questions in order to choose a appropriate theme
+: The look that you want for your website
+: The features that it support (like multilinguages ? and so on.)</p>
+</li>
+<li>
+<p>Step 2: <a href="https://gohugo.io/getting-started/quick-start/">Create and deploy your site on local</a></p>
+<ul>
+<li><a href="https://gohugo.io/getting-started/installing/">Installing Hugo</a>: In my case, I&rsquo;m on a Windows machine and use Chocolatey for package management, so first I open a CLI (Command Line Interface), then I install Hugo with the following command: <br>
+<code>choco install hugo -confirm</code></li>
+</ul>
+<p>To verify the version that you installed, use <code>hugo version</code>.</p>
+<ul>
+<li>
+<p>Create a new site:
+First of all, you have to go to the folder where you would like you site folder to stay, then using command
+<code>cd &lt;path/to/your/folder/&gt;</code></p>
+<p>After that, you can create your new site <code>hugo new site &lt;name_of_your_site&gt;</code>.
+Now you will have a folder named &lt;name_of_your_site&gt; at the path &lt;path/to/your/folder/&gt;. Ex: I will have a folder named &lsquo;MyBlog&rsquo; in my path &lsquo;D:\Documents' like this &lsquo;D:\Documents\MyBlog'.</p>
+</li>
+<li>
+<p>Add a theme: I choose the theme <a href="https://themes.gohugo.io/themes/hugo-theme-learn/">Learn</a>. But feel free to chose what ever you like.</p>
+<ul>
+<li>Don&rsquo;t forget to go to the site folder by using <code>cd MyBlog</code> in the CLI.</li>
+<li>Create a git repository inside of your folder &lsquo;MyBlog&rsquo; <code>git init</code>.</li>
+<li>If you want the latest version with bug fix and
+<ul>
+<li>If you don&rsquo;t want to customize the theme later, use the following command <code>git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/learn</code>. This command will save your theme in a folder with path theme/learn and add it as a submodule in git.</li>
+<li>If you want to customize the theme later, I sugest that you go on your github site, find your theme (ex: <a href="https://github.com/matcornic/hugo-theme-learn),">https://github.com/matcornic/hugo-theme-learn),</a> folk it, then using that link to do the command <code>git submodule add &lt;link/to/theme/repository&gt;.git themes/&lt;themeName&gt;</code>. Ex:
+<code>git submodule add https://github.com/ngocbichdao/hugo-theme-learn.git themes/learn</code></li>
+</ul>
+</li>
+<li>If you are a non-git users: follow the guide in <a href="https://gohugo.io/getting-started/quick-start/">here</a>.</li>
+</ul>
+</li>
+<li>
+<p>If you want to verify, you can start your local site by using this command <code>hugo server</code>. Navigate to your new site at http://localhost:1313/.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Step 3: Push Hugo site code on Github</p>
+<ul>
+<li>Add a new remote for your branch <code>git remote add &lt;name_of_your_remote&gt; &lt;name_of_your_new_branch&gt;</code>Ex: Add new remote branch named &lsquo;origin&rsquo; for your repository <code>git remote add origin git@github.com:&lt;user_name&gt;/&lt;repo_name&gt;</code>.</li>
+<li>Add all files and folders <code>git add --all</code>.</li>
+<li>Commit to the branch &lsquo;origin&rsquo; <code>git commit -m &quot;&lt;your_commit_message&gt;&quot;</code>.</li>
+<li>Create new branch on your computer <code>git checkout &lt;name_of_your_new_branch&gt;</code>. Ex: <code>git checkout -b source</code>.</li>
+<li>Try and redefine the ssh url for remote origin: <code>git remote set-url origin git@github.com:&lt;user_name&gt;/&lt;repo_name&gt;.git</code></li>
+<li>Push from &lsquo;origin&rsquo; branch (on your computer) to &lsquo;source&rsquo; branch (on github) <code>git push origin source</code>. If your branch on github have different name, don&rsquo;t forget to change it in the command. Note that the Hugo site code have to be push on a branch that different than the default (main) one. Because your public static site will be posted on default branch (main branch in this case). Belive me, I have made this mistake, and it take time to repair it. At that time I didn&rsquo;t know that we can change the default branch on github so easily&hellip; (Go in your repository on github/Settings/Branches and change the default branch.)</li>
+</ul>
+</li>
+<li>
+<p>Step 4: Connecting to github repo with a SSH key</p>
+<ul>
+<li><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys">Checking for existing ssh keys</a></li>
+<li>If you don&rsquo;t have any ssh key, now is the time to <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">generate a new ssh key and add it to the ssh agent</a>.
+Once your connection is etablish, you can go to next step.</li>
+</ul>
+</li>
+<li>
+<p>Step 5: Create GitHub token. This step is well described in <a href="https://ruddra.com/hugo-deploy-static-page-using-github-actions/#step-4-create-github-token">here</a>.</p>
+</li>
+<li>
+<p>Step 6: Add token as Secret on GitHub. This step is well described in <a href="https://ruddra.com/hugo-deploy-static-page-using-github-actions/#step-5-add-token-as-secret-in-github">here</a>.</p>
+</li>
+<li>
+<p>Step 7: Create A GitHub Action. In your Hugo site folder, there is a folder named &lsquo;./github/&rsquo;, now is the time to create a folder named &lsquo;workflows&rsquo; and a file named &lsquo;githubAction.yml&rsquo;. My *.yml is looked like this</p>
+<pre><code>  name: CI
+  # Controls when the workflow will run
+  on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+      branches: [ source ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  jobs:
+  # This workflow contains a single job called &quot;build&quot;
+  build:
+      # The type of runner that the job will run on
+      runs-on: ubuntu-latest
+
+      # Steps represent a sequence of tasks that will be executed as part of the job
+      steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Git checkout
+          uses: actions/checkout@v2
+          with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      #- name: Update theme
+          # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
+      # run: git submodule update --init --recursive
+
+      - name: Setup hugo
+          uses: peaceiris/actions-hugo@v2
+          with:
+          hugo-version: &quot;0.88.1&quot;
+          # extended: true
+
+      - name: Build        
+          run: hugo
+
+      - name: Deploy
+          uses: peaceiris/actions-gh-pages@v3
+          if: github.ref == 'refs/heads/source'
+          with:
+          personal_token: ${{ secrets.TOKENHUGO }}
+          publish_dir: ./public
+          # keep_files: true
+          publish_branch: main
+          #   cname: example.com
+</code></pre>
+<p>More explication for this code can be found in <a href="https://ruddra.com/hugo-deploy-static-page-using-github-actions/#step-6-create-a-github-action">this link</a>.</p>
+</li>
+<li>
+<p>Step 8: Push on github using these command and your action will start automatically. You can check its progress in the actions tab.</p>
+<pre tabindex="0"><code>git add --all
+git commit -m &quot;your_commit_message&quot;
+git push origin source
+</code></pre></li>
+<li>
+<p>Step 9: I prefer to change my site on local and then push new commit on source branch. But feel free to make change using the web interface of GitHub.</p>
+</li>
+</ul>
+<p>Thank you for reading my first blog. If you have any questions or remarks, feel free to contact me.</p>
 
 
 <footer class="footline">
@@ -471,41 +559,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
                     
                         
             
@@ -553,8 +606,6 @@
 			<a class="nav nav-prev" href="/en/posts/" title="Posts"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/en/about/" title="Abouts" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
-		
 	
     </div>
 
@@ -563,16 +614,16 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1633335210"></script>
-    <script src="/js/perfect-scrollbar.min.js?1633335210"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1633335210"></script>
-    <script src="/js/jquery.sticky.js?1633335210"></script>
-    <script src="/js/featherlight.min.js?1633335210"></script>
-    <script src="/js/highlight.pack.js?1633335210"></script>
+    <script src="/js/clipboard.min.js?1633357175"></script>
+    <script src="/js/perfect-scrollbar.min.js?1633357175"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1633357175"></script>
+    <script src="/js/jquery.sticky.js?1633357175"></script>
+    <script src="/js/featherlight.min.js?1633357175"></script>
+    <script src="/js/highlight.pack.js?1633357175"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1633335210"></script>
-    <script src="/js/learn.js?1633335210"></script>
-    <script src="/js/hugo-learn.js?1633335210"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1633357175"></script>
+    <script src="/js/learn.js?1633357175"></script>
+    <script src="/js/hugo-learn.js?1633357175"></script>
     
     
 

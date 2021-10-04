@@ -1,31 +1,10 @@
 [
 {
-	"uri": "/en/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": "This website is a showcase.\n"
-},
-{
-	"uri": "/en/about/",
-	"title": "Abouts",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "/en/about/about/",
-	"title": "Abouts",
-	"tags": [],
-	"description": "",
-	"content": "About me\n"
-},
-{
 	"uri": "/en/posts/test/",
-	"title": "Content",
+	"title": "How to really using Hugo and GitHub action together",
 	"tags": [],
 	"description": "",
-	"content": "Mot con vit xoe ra hai cai canh\n"
+	"content": " This is my first time to create a blog. Yes, I know I know, I\u0026rsquo;m an software engineer, I had learn to create and deploy a website in my early days at my university. But back then (2007), there isn\u0026rsquo;t much framework and way to do that like now (2021). And I have forgot alot of things, in order to learn new things. So it\u0026rsquo;s like start at the beginning. I ask around and decided to use Hugo framework to build my static website and github action to deploy my website on the internet. I have had some trouble when I follow the guides on the internet, even the official one, they are great, with alot of detail, but sometime I feel like it is more for someone who already know how to create and deploy a website. So I decided that my first blog will be talking about how to use Hugo framework to build my website and github action to deploy my website on my \u0026lt;your github account name\u0026gt;.github.io repository. What is Hugo framework ? Hugo is a static site generator written in Go.  What is GitHub actions ? :\n How did I do it ? In the next part, I will show you how did I do it, step by step with comment on things that I missed, and loss time to correct it. I also put links that I followed for guide with more informations.    Step 1: Choose a theme Answer some questions in order to choose a appropriate theme : The look that you want for your website : The features that it support (like multilinguages ? and so on.)\n  Step 2: Create and deploy your site on local\n Installing Hugo: In my case, I\u0026rsquo;m on a Windows machine and use Chocolatey for package management, so first I open a CLI (Command Line Interface), then I install Hugo with the following command: choco install hugo -confirm  To verify the version that you installed, use hugo version.\n  Create a new site: First of all, you have to go to the folder where you would like you site folder to stay, then using command cd \u0026lt;path/to/your/folder/\u0026gt;\nAfter that, you can create your new site hugo new site \u0026lt;name_of_your_site\u0026gt;. Now you will have a folder named \u0026lt;name_of_your_site\u0026gt; at the path \u0026lt;path/to/your/folder/\u0026gt;. Ex: I will have a folder named \u0026lsquo;MyBlog\u0026rsquo; in my path \u0026lsquo;D:\\Documents' like this \u0026lsquo;D:\\Documents\\MyBlog'.\n  Add a theme: I choose the theme Learn. But feel free to chose what ever you like.\n Don\u0026rsquo;t forget to go to the site folder by using cd MyBlog in the CLI. Create a git repository inside of your folder \u0026lsquo;MyBlog\u0026rsquo; git init. If you want the latest version with bug fix and  If you don\u0026rsquo;t want to customize the theme later, use the following command git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/learn. This command will save your theme in a folder with path theme/learn and add it as a submodule in git. If you want to customize the theme later, I sugest that you go on your github site, find your theme (ex: https://github.com/matcornic/hugo-theme-learn), folk it, then using that link to do the command git submodule add \u0026lt;link/to/theme/repository\u0026gt;.git themes/\u0026lt;themeName\u0026gt;. Ex: git submodule add https://github.com/ngocbichdao/hugo-theme-learn.git themes/learn   If you are a non-git users: follow the guide in here.    If you want to verify, you can start your local site by using this command hugo server. Navigate to your new site at http://localhost:1313/.\n    Step 3: Push Hugo site code on Github\n Add a new remote for your branch git remote add \u0026lt;name_of_your_remote\u0026gt; \u0026lt;name_of_your_new_branch\u0026gt;Ex: Add new remote branch named \u0026lsquo;origin\u0026rsquo; for your repository git remote add origin git@github.com:\u0026lt;user_name\u0026gt;/\u0026lt;repo_name\u0026gt;. Add all files and folders git add --all. Commit to the branch \u0026lsquo;origin\u0026rsquo; git commit -m \u0026quot;\u0026lt;your_commit_message\u0026gt;\u0026quot;. Create new branch on your computer git checkout \u0026lt;name_of_your_new_branch\u0026gt;. Ex: git checkout -b source. Try and redefine the ssh url for remote origin: git remote set-url origin git@github.com:\u0026lt;user_name\u0026gt;/\u0026lt;repo_name\u0026gt;.git Push from \u0026lsquo;origin\u0026rsquo; branch (on your computer) to \u0026lsquo;source\u0026rsquo; branch (on github) git push origin source. If your branch on github have different name, don\u0026rsquo;t forget to change it in the command. Note that the Hugo site code have to be push on a branch that different than the default (main) one. Because your public static site will be posted on default branch (main branch in this case). Belive me, I have made this mistake, and it take time to repair it. At that time I didn\u0026rsquo;t know that we can change the default branch on github so easily\u0026hellip; (Go in your repository on github/Settings/Branches and change the default branch.)    Step 4: Connecting to github repo with a SSH key\n Checking for existing ssh keys If you don\u0026rsquo;t have any ssh key, now is the time to generate a new ssh key and add it to the ssh agent. Once your connection is etablish, you can go to next step.    Step 5: Create GitHub token. This step is well described in here.\n  Step 6: Add token as Secret on GitHub. This step is well described in here.\n  Step 7: Create A GitHub Action. In your Hugo site folder, there is a folder named \u0026lsquo;./github/\u0026rsquo;, now is the time to create a folder named \u0026lsquo;workflows\u0026rsquo; and a file named \u0026lsquo;githubAction.yml\u0026rsquo;. My *.yml is looked like this\n name: CI # Controls when the workflow will run on: # Triggers the workflow on push or pull request events but only for the main branch push: branches: [ source ] # Allows you to run this workflow manually from the Actions tab workflow_dispatch: # A workflow run is made up of one or more jobs that can run sequentially or in parallel jobs: # This workflow contains a single job called \u0026quot;build\u0026quot; build: # The type of runner that the job will run on runs-on: ubuntu-latest # Steps represent a sequence of tasks that will be executed as part of the job steps: # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it - name: Git checkout uses: actions/checkout@v2 with: submodules: true # Fetch Hugo themes (true OR recursive) fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod #- name: Update theme # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version # run: git submodule update --init --recursive - name: Setup hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: \u0026quot;0.88.1\u0026quot; # extended: true - name: Build run: hugo - name: Deploy uses: peaceiris/actions-gh-pages@v3 if: github.ref == 'refs/heads/source' with: personal_token: ${{ secrets.TOKENHUGO }} publish_dir: ./public # keep_files: true publish_branch: main # cname: example.com  More explication for this code can be found in this link.\n  Step 8: Push on github using these command and your action will start automatically. You can check its progress in the actions tab.\ngit add --all git commit -m \u0026quot;your_commit_message\u0026quot; git push origin source   Step 9: I prefer to change my site on local and then push new commit on source branch. But feel free to make change using the web interface of GitHub.\n  Thank you for reading my first blog. If you have any questions or remarks, feel free to contact me.\n"
 },
 {
 	"uri": "/en/posts/",
@@ -33,6 +12,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/en/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "This website is a showcase.\n"
 },
 {
 	"uri": "/en/categories/",
