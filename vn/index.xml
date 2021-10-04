@@ -7,21 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/vn/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Thu nghiem</title>
-      <link>/vn/noi-dung/test/</link>
+      <title>Abouts</title>
+      <link>/vn/about/about/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
-      <guid>/vn/noi-dung/test/</guid>
-      <description>No keu rang cap cap cap cap cap cap</description>
+      <guid>/vn/about/about/</guid>
+      <description>About me</description>
     </item>
     
     <item>
-      <title>Tu su</title>
-      <link>/vn/gioi-thieu-ban-than/about/</link>
+      <title>Noi dung</title>
+      <link>/vn/posts/test/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
-      <guid>/vn/gioi-thieu-ban-than/about/</guid>
-      <description>Noi ve toi</description>
+      <guid>/vn/posts/test/</guid>
+      <description>Gap ho nuoc no bi ba bi bom</description>
     </item>
     
   </channel>

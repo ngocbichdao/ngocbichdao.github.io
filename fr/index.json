@@ -1,35 +1,35 @@
 [
 {
-	"uri": "/fr/a-propos/",
-	"title": "A propos",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "/fr/a-propos/about/",
-	"title": "A propose",
-	"tags": [],
-	"description": "",
-	"content": "A propose de moi\n"
-},
-{
-	"uri": "/fr/article/",
-	"title": "Articles",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "/fr/article/test/",
-	"title": "Con ga con",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "/fr/",
-	"title": "Ngoc Bich DAO",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Vitrine.\n"
+},
+{
+	"uri": "/fr/about/",
+	"title": "Abouts",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/fr/about/about/",
+	"title": "Abouts",
+	"tags": [],
+	"description": "",
+	"content": "About me\n"
+},
+{
+	"uri": "/fr/posts/test/",
+	"title": "Contenu",
+	"tags": [],
+	"description": "",
+	"content": "No keu rang cap cap cap cap cap cap\n"
+},
+{
+	"uri": "/fr/posts/",
+	"title": "Posts",
 	"tags": [],
 	"description": "",
 	"content": ""

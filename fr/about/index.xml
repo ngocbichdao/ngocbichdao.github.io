@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on My blog</title>
-    <link>/en/about/</link>
-    <description>Recent content in Abouts on My blog</description>
+    <title>Abouts on Mon blog</title>
+    <link>/fr/about/</link>
+    <description>Recent content in Abouts on Mon blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/en/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/fr/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abouts</title>
-      <link>/en/about/about/</link>
+      <link>/fr/about/about/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
-      <guid>/en/about/about/</guid>
+      <guid>/fr/about/about/</guid>
       <description>About me</description>
     </item>
     

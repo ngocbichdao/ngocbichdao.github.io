@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ngoc Bich DAO</title>
+    <title>Mon blog</title>
     <link>/fr/</link>
-    <description>Recent content on Ngoc Bich DAO</description>
+    <description>Recent content on Mon blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A propose</title>
-      <link>/fr/a-propos/about/</link>
+      <title>Abouts</title>
+      <link>/fr/about/about/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
-      <guid>/fr/a-propos/about/</guid>
-      <description>A propose de moi</description>
+      <guid>/fr/about/about/</guid>
+      <description>About me</description>
     </item>
     
     <item>
-      <title>Con ga con</title>
-      <link>/fr/article/test/</link>
+      <title>Contenu</title>
+      <link>/fr/posts/test/</link>
       <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
       
-      <guid>/fr/article/test/</guid>
-      <description></description>
+      <guid>/fr/posts/test/</guid>
+      <description>No keu rang cap cap cap cap cap cap</description>
     </item>
     
   </channel>

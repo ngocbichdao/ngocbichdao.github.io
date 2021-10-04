@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ngoc Bich DAO</title>
+    <link>/vn/posts/</link>
+    <description>Recent content in Posts on Ngoc Bich DAO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Oct 2021 14:22:24 +0200</lastBuildDate><atom:link href="/vn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Noi dung</title>
+      <link>/vn/posts/test/</link>
+      <pubDate>Fri, 01 Oct 2021 14:22:24 +0200</pubDate>
+      
+      <guid>/vn/posts/test/</guid>
+      <description>Gap ho nuoc no bi ba bi bom</description>
+    </item>
+    
+  </channel>
+</rss>
