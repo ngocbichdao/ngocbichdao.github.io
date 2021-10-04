@@ -12,7 +12,7 @@ What is Hugo framework ?
 : Hugo is a static site generator written in Go.
 
 What is GitHub actions ?
-:
+: GitHub actions helps you build, test and deploy applications. In our case, I will use it to build and deploy my website automatically.
 
 How did I do it ?
 : In the next part, I will show you how did I do it, step by step with comment on things that I missed, and loss time to correct it. I also put links that I followed for guide with more informations.
