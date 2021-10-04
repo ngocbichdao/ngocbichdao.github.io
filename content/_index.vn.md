@@ -1,5 +1,5 @@
 ---
 chapter: true
 ---
-Vitrine.
+Ví dụ.
 

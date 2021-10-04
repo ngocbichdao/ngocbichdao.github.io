@@ -10,18 +10,27 @@ defaultContentLanguageInSubdir= true
 #==========================================================
 [Languages]
 [Languages.en]
-contentDir = 'content/en'
-title = "Ngoc Bich DAO"
+#contentDir = 'content/en'
+title = "My blog"
 weight = 1
 languageName = "English"
 landingPageURL = "/en"
 landingPageName = "<i class='fas fa-home'></i> Home"
-# [Languages.en.menu]
-# [[Languages.en.menu.main]]
-#       name = 'Home'
-#       url = '/'
-#       weight = 0
+[Languages.en.menu]
+[[Languages.en.menu.main]]
+      name = 'About'
+      url = '/about'
+      weight = 1
+[[Languages.en.menu.main]]
+      name = 'Posts'
+      url = '/posts'
+      weight = 2
 # Add links in left panel
+[[Languages.en.menu.shortcuts]] 
+name = "<i class='fab fa-linkedin-in'></i> LinkedIn"
+url = "https://www.linkedin.com/in/ngoc-bich-dao/"
+weight = 9
+
 [[Languages.en.menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
@@ -45,14 +54,27 @@ url = "/credits"
 weight = 30
 #==========================================================
 [Languages.fr]
-contentDir = 'content/fr'
-title = "Ngoc Bich DAO"
+#contentDir = 'content/fr'
+title = "Mon blog"
 weight = 2
 languageName = "Français"
 landingPageURL = "/fr"
 landingPageName = "<i class='fas fa-home'></i> Accueil"
-
+[Languages.fr.menu]
+[[Languages.fr.menu.main]]
+      name = 'A propos'
+      url = '/about'
+      weight = 1
+[[Languages.fr.menu.main]]
+      name = 'Articles'
+      url = '/posts'
+      weight = 2
 # Add links in left panel
+[[Languages.fr.menu.shortcuts]] 
+name = "<i class='fab fa-linkedin-in'></i> LinkedIn"
+url = "https://www.linkedin.com/in/ngoc-bich-dao/"
+weight = 9
+
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Repo Github"
 identifier = "ds"
@@ -76,13 +98,27 @@ url = "/credits"
 weight = 30
 #==========================================================
 [Languages.vn]
-contentDir = 'content/vn'
+#contentDir = 'content/vn'
 title = "Ngoc Bich DAO"
 weight = 3
 languageName = "VietNam"
 landingPageURL = "/vn"
-landingPageName = "<i class='fas fa-home'></i> Trang chu"
+landingPageName = "<i class='fas fa-home'></i> Trang chủ"
+[Languages.vn.menu]
+[[Languages.vn.menu.main]]
+      name = "Giới thiệu bản thân"
+      url = "/about"
+      weight = 1
+[[Languages.vn.menu.main]]
+      name = "Nội dung"
+      url = "/posts"
+      weight = 2
 # Add links in left panel
+[[Languages.vn.menu.shortcuts]] 
+name = "<i class='fab fa-linkedin-in'></i> LinkedIn"
+url = "https://www.linkedin.com/in/ngoc-bich-dao/"
+weight = 9
+
 [[Languages.vn.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
@@ -104,9 +140,6 @@ weight = 20
 name = "<i class='fas fa-bullhorn'></i> Cảm ơn"
 url = "/credits"
 weight = 30
-#==========================================================
-# landingPageURL = "/"
-# landingPageName = "<i class='fas fa-home'></i> Home"
 #==========================================================
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
@@ -130,17 +163,17 @@ weight = 30
   disableShortcutsTitle = false
   # If set to false, a Home button will appear below the search bar on the menu.
   # It is redirecting to the landing page of the current language if specified. (Default is "/")
-  disableLandingPageButton = true
+  disableLandingPageButton = false
   # When using mulitlingual website, disable the switch language button.
   disableLanguageSwitchingButton = false
   # Hide breadcrumbs in the header and only show the current page title
   disableBreadcrumb = true
   # If set to true, prevents Hugo from including the mermaid module if not needed (will reduce load times and traffic)
-  disableMermaid = false
+  disableMermaid = true
   # Specifies the remote location of the mermaid js
   # customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   # Hide Next and Previous page buttons normally displayed full height beside content
-  disableNextPrev = true
+  disableNextPrev = false
   # Order sections in menu by "weight" or "title". Default to "weight"
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
@@ -152,4 +185,3 @@ weight = 30
 [outputs]
   home = [ "HTML", "RSS", "JSON"]
 #========================================
-
